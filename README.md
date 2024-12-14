@@ -2,6 +2,8 @@
 A well-written README provides essential information about your project,
 such as installation instructions, usage examples and contributions guidelines.
 
+# Mini Project Python Mariona Puente Quera
+
 # List of usefull commands:
 all command should run under project root/working-directory
 
@@ -38,38 +40,3 @@ note: if you're don't remember the exact package name copy it from:
 ```bash
 pip list
 ```
-
-#### Steps in case of a package failure:
-Cases like package installation interuppted in the middle or something like that
-1. Try to remove package and install it again.
-2. If it doesn't help delete venv folder 
-3. repeat 'On first run' steps
-
-
-## Health check (Lint/Tests/Tests-Coverage):
-#### Lint Project:
-Check formatting, type hinting, lint code & docstrings
-```bash
-tox run -e lint
-```
-#### Test Project: 
-Run all tests on diffrent python versions and produce tests-coverage and tests-results reports (make sure tested versions installed before run):
-```bash
-tox run -f test
-```
-#### Lint and Test project (on diffrent python versions):
-```bash
-tox run
-```
-
-## Build/pack the project (should run on every version change)
-```bash
-python -m build
-```
-
-### $${\color{red} TBD}$$:
-#### Package documentation:
-```bash
-tox run -e docs
-```
-
