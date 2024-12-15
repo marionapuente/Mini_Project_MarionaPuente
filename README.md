@@ -1,11 +1,10 @@
-:nerd_face:
-A well-written README provides essential information about your project,
-such as installation instructions, usage examples and contributions guidelines.
-
 # Mini Project Python Mariona Puente Quera
 
-# List of usefull commands:
-all command should run under project root/working-directory
+This is the Mini Project for the class: Advanced Python Concepts Workshop for Neuroscience.
+It contains this readme file which has some basic explanations on how to set up the virtual environment on the first run if needed,
+and on the last line it gives the instruction to install the project packages via the .toml file.
+
+The project is in the file 'Miniproject.ipynb', I hope you enjoy it!
 
 ## On first run:
 ```bash 
@@ -18,25 +17,6 @@ python -m venv venv
 + (venv) should appear as prefix to all command (run next command just after activating venv)
 #update venv's python package-installer (pip) to its latest version
 pip install --upgrade pip
-#install projects packages
+#install project packages
 pip install -e .[dev]     
 ``` 
-
-## Modify package dependencies (add/remove/update external modules/packages):
-#### Add new module:
-1. Add package to pyproject.toml
-2. Run:
-```bash 
-pip install -e .[dev]
-``` 
-
-#### Remove new module:
-1. Remove the package from pyproject.toml
-2. Run:
-```bash 
-pip uninstall <package-name>
-```
-note: if you're don't remember the exact package name copy it from: 
-```bash
-pip list
-```
