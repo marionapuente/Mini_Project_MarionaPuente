@@ -3,8 +3,9 @@
 This is the Mini Project for the class: Advanced Python Concepts Workshop for Neuroscience.
 It contains this readme file which has some basic explanations on how to set up the virtual environment on the first run if needed,
 and on the last line it gives the instruction to install the project packages via the .toml file.
+It additionally contains a workspace configuration for the the project and the dataset needed for the second part of the exercise ('laptop_price - dataset.csv').
 
-The project is in the file 'Miniproject.ipynb', I hope you enjoy it!
+The project itself is in the file 'Miniproject.ipynb', I hope you enjoy it!
 
 ## On first run:
 ```bash 
